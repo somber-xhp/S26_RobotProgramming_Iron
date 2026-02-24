@@ -1,0 +1,12 @@
+string name
+geometry_msgs/Pose turtle_pose
+	Point position
+		float64 x
+		float64 y
+		float64 z
+	Quaternion orientation
+		float64 x 0
+		float64 y 0
+		float64 z 0
+		float64 w 1
+string color

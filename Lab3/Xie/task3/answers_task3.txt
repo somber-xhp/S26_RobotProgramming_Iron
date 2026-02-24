@@ -1,0 +1,6 @@
+[Task 3] Q6. Based on the names, what do you anticipate services using these definitions will do?
+Answer:
+SetPose.srv will likely set or update the turtle's pose (position and orientation), while SetColor.srv will likely set or update the turtle's color. Both services return an integer status (ret) that likely indicates success/failure or a status code.
+
+[Task 3] Brief explanation of the method used:
+I created custom ROS2 interfaces in the turtle_interfaces package (one message and two services), updated CMakeLists.txt and package.xml with rosidl and geometry_msgs dependencies, rebuilt the package with colcon, sourced the workspace, and verified the generated interfaces using `ros2 interface show`.

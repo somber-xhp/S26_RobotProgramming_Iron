@@ -1,0 +1,4 @@
+Starting >>> python_turtle
+Finished <<< python_turtle [2.81s]
+
+Summary: 1 package finished [3.67s]

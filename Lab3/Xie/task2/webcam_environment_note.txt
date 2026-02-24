@@ -1,0 +1,3 @@
+Task 2 Note (Environment Limitation):
+The webcam package was created and built successfully, and the ROS2 executables (webcam_pub and webcam_sub) were detected.
+However, the webcam publisher could not access a camera device in the current WSL environment (no /dev/video0 available), so live webcam streaming could not be demonstrated. This is an environment/device access limitation, not a package build or ROS2 configuration issue.

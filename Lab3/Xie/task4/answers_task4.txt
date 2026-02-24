@@ -1,0 +1,13 @@
+[Task 4] Step 7 Question: What happened?
+Answer:
+The `turtlebot_server` and `turtlebot_client` nodes started successfully and communicated through ROS2 topics. The client received turtle state updates from the server and published commands back to the server.
+
+[Task 4] Step 16 Question: What prints in the server terminal when we run the service client?
+Answer:
+The `service_client` terminal printed a successful service response (`Server call success: 1`). In the server terminal, a log message indicating the turtle color update was printed, such as `Turtle color set: <color>`.
+
+[Task 4] REQUIRED Question: Describe what `turtlebot_server.py` and `turtlebot_client.py` do.
+Answer:
+`turtlebot_server.py` creates a ROS2 node that acts as the main turtle state manager. It publishes a custom turtle message (using `turtle_interfaces/msg/TurtleMsg`) containing the turtle's name, pose, and color, and it maintains the current turtle data. After the service extension is added, it also provides a `set_color` service (`turtle_interfaces/srv/SetColor`) so a client can request a color change and receive a return status code.
+
+`turtlebot_client.py` creates a ROS2 node that communicates with the turtlebot server using ROS2 topics. It subscribes to turtle state updates from the server and publishes commands/updates back to the server, demonstrating how the custom interfaces are used in a Python ROS2 package.
