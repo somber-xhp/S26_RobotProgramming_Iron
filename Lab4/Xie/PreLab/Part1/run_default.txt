@@ -1,0 +1,8 @@
+[INFO] [1773638244.390201067] [square_client]: Waiting for action server...
+[INFO] [1773638244.391336835] [square_client]: Sending goal request... square_size=50.0
+[INFO] [1773638244.438840505] [square_client]: Goal accepted
+[INFO] [1773638245.062999516] [square_client]: Received feedback: turtle_interfaces.msg.TurtlePose(heading=90.0, position=array([50.,  0.]))
+[INFO] [1773638246.622743791] [square_client]: Received feedback: turtle_interfaces.msg.TurtlePose(heading=180.0, position=array([50., 50.]))
+[INFO] [1773638248.190152812] [square_client]: Received feedback: turtle_interfaces.msg.TurtlePose(heading=270.0, position=array([ 0., 50.]))
+[INFO] [1773638249.762627965] [square_client]: Received feedback: turtle_interfaces.msg.TurtlePose(heading=0.0, position=array([-9.18485099e-15,  7.10542736e-15]))
+[INFO] [1773638250.766933910] [square_client]: Goal succeeded! Result: turtle_interfaces.msg.TurtlePose(heading=0.0, position=array([-9.18485099e-15,  7.10542736e-15]))
